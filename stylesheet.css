@@ -1,0 +1,235 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	/*display: flex;*/
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding: 1em 0 .5em 0;
+}
+
+h3 {
+	text-align: center;
+	padding-top: .5em;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#success-header {
+	text-align: center;
+	margin-top: 1;
+}
+
+#success-image {
+	width: 55%;
+}
+
+#banner {
+	padding: 1em 0 1.7em 0;
+}
+
+#wrapper {
+	position: relative;
+	background-image: url(http://www.gunnars.com/wp-content/uploads/2014/08/Space.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	background-color: white;
+	min-height: 100%;
+	width: 81%;
+}
+
+#header {
+	height: 0;
+	background-color: transparent;
+	margin-top: 0;
+}
+
+#footer {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 7%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*background-color: transparent;*/
+	background-color: rgba(250, 250, 250, 0.3);
+	display: table;
+}
+
+#submit-button {
+	display: block;
+	width: 29em;
+	height: 200px;
+	margin-top: 2em;
+}
+
+.bucket-left {
+	width: 40%;
+	/*height: 10em;*/
+	float: left;
+	position: relative;
+	text-align: left;
+	margin-left: 17%;
+	margin-bottom: .8em;
+	padding-bottom: .8em;
+}
+
+.bucket-right {
+	width: 40%;
+	/*height: 10em;*/
+	float: left;
+	margin-left: 0;
+	position: relative;
+	text-align: left;
+	margin-bottom: .8em;
+	padding-bottom: .8em;
+}
+
+.bucket-center {
+	display: block;
+	margin-left: 35%;
+	margin-right: auto;
+	width: 40%;
+}
+
+.stacked-item {
+	text-align: left;
+	margin-bottom: .5em;
+	padding-bottom: .3em;
+}
+
+#top-left {
+	width: 100%;
+	height: 50%;
+}
+
+#top-right {
+	width: 100%;
+	height: 50%;
+}
+
+#bottom-left {
+	width: 100%;
+	height: 50%;
+}
+
+#bottom-right {
+	width: 100%;
+	height: 50%;
+}
+
+.answer-button {
+	height: 5%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button-holder {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#back-button-holder {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8em;
+	margin-bottom: 2em;
+	height: 25%;
+	width: 55%;
+}
+
+#back-button {
+	display: block;
+	width: 100%;
+	height: 10%;
+	margin: 0 auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background: #d3d3d3;
+ 	border: 2px solid rgba(33, 68, 72, 0.59);
+ 	color: rgba(0, 0, 0, 0.80);
+ 	text-decoration: none;
+ 	text-align: center;
+ 	font: bold 1.2em/37px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+ 	background: -webkit-linear-gradient(top, lightgrey, #999999);
+	background: -moz-linear-gradient(top, #34696f, #2f5f63);
+	background: -o-linear-gradient(top, #34696f, #2f5f63);
+	background: -ms-linear-gradient(top, #34696f, #2f5f63);
+	background: linear-gradient(top, #34696f, #2f5f63);
+
+ 	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+ 	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.9);
+}
+
+#submit-button-holder {
+	text-align: center;
+	height: 25%;
+	width: 55%;
+	margin: .5em auto .5em auto;
+	padding: 2em 0 2.5em 0;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	height: 8%;
+	background: #d3d3d3;
+ 	border: 2px solid rgba(33, 68, 72, 0.59);
+ 	color: rgba(0, 0, 0, 0.80);
+ 	text-decoration: none;
+ 	text-align: center;
+ 	font: bold 1.2em/37px Arial, Helvetica, Geneva, sans-serif;
+
+ 	background: -webkit-linear-gradient(top, lightgrey, #999999);
+	background: -moz-linear-gradient(top, lightgrey, #999999);
+	/*background: -o-linear-gradient(top, lightgrey, #999999);
+	background: -ms-linear-gradient(top, lightgrey, #999999);*/
+	background: linear-gradient(top, lightgrey, #999999);
+
+ 	/*-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	-moz-border-radius: 50px;*/
+	border-radius: 50px;
+ 	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.9);
+}
+
+label {
+	padding-left: .3em;
+	padding-right: .3em;
+}
+
+form {
+	margin-bottom: 1em;
+}
