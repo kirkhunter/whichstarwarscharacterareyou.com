@@ -1,6 +1,6 @@
 # Which Star Wars Character Are You?
 
-![alt image](http://whichstarwarscharacterareyou.com/star-wars-banner.jpg)
+![alt image](http://whichstarwarscharacterareyou.com/static/images/star-wars-banner.jpg)
 
 Not another personality quizlet
 
