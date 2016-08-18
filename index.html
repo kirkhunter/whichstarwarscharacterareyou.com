@@ -8,9 +8,9 @@
     <meta property="og:url" content="http://www.whichstarwarscharacterareyou.com" />
     <meta property="og:title" content="Which Star Wars character are you?" />
     <title>Which Star Wars Character are you?</title>
-    <link rel="icon" type="image/png" href="/bb8_cropped.png" />
+    <link rel="icon" type="image/png" href="static/images/bb8_cropped.png" />
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/stylesheet.css" type="text/css" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,11 +28,11 @@
       <div id="content">
         <h1>Which Star Wars Character Are You?</h1>
         <div id="banner">
-          <img src="star-wars-banner.jpg" />
+          <img src="static/images/star-wars-banner.jpg" />
         </div>
         <form action="success.html" class="simple-quiz">
           <h3>Are you afraid of... the dark?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[1]" value="A">
               yes
@@ -43,7 +43,7 @@
             </label>
           </div>
           <h3>Would you rather...</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[2]" value="A">
               pilot a plane against the Rebel army?
@@ -54,7 +54,7 @@
             </label>
           </div>
           <h3>Do you consider yourself to be more...</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[3]" value="A">
               brave?
@@ -65,7 +65,7 @@
             </label>
           </div>
           <h3>Are you afraid of flying?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[4]" value="A">
               yes
@@ -76,7 +76,7 @@
             </label>
           </div>
           <h3>Which is closest to your ideal date with Princess Leia?</h3>
-          <div class="button-holder" style="margin-bottom: 6em">
+          <div class="button-container" style="margin-bottom: 6em">
             <div class="bucket-left">
               <div class="stacked-item">
                 <label>
@@ -107,7 +107,7 @@
             </div>
           </div>
           <h3 style="margin-top: 4em">Your skin has strong green or olive undertones.</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[6]" value="A">
               strongly disagree
@@ -126,7 +126,7 @@
             </label>
           </div>
           <h3>Can you see yourself walking in/on the sky?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[7]" value="A">
               yes
@@ -137,7 +137,7 @@
             </label>
           </div>
           <h3>How do you feel about furballs?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[8]" value="A">
               They're a necessary part of everyday life
@@ -148,7 +148,7 @@
             </label>
           </div>
           <h3>At a social gathering you can generally be found...</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <div class="bucket-center">
               <div class="stacked-item">
                 <label>
@@ -171,7 +171,7 @@
             </div>
           </div>
           <h3>Which superpower would you want most?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[10]" value="A">
               ability to fly
@@ -190,7 +190,7 @@
             </label>
           </div>
           <h3>To which house do you belong?</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[11]" value="A">
               Gryffindor
@@ -212,7 +212,7 @@
             </label>
           </div>
           <h3>Choose one</h3>
-          <div class="button-holder">
+          <div class="button-container">
             <label>
               <input type="radio" name="answers[12]" value="A">
               Superman
@@ -223,11 +223,13 @@
             </label>
           </div>
         </form>
-          <div id="submit-button-holder">
-            <a class="button" href="success">Submit</a>
-          </div>
+        <div class="pink-button-container">
+          <a href="success">
+            <div class="pink-button">Submit</div>
+          </a>
         </div>
-        <div id="footer" style="background-color: transparent"></div>
+      </div>
+      <div id="footer" style="background-color: transparent"></div>
     </div>
   </body>
 </html>
